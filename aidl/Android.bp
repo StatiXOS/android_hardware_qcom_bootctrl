@@ -30,6 +30,7 @@ bootctrl_cc_defaults {
     name: "android.hardware.boot-service.qti.common",
     relative_install_path: "hw",
     defaults: [
+        "libgptutils_defaults",
         "libboot_control_defaults",
         "libboot_control_qti_defaults",
     ],
